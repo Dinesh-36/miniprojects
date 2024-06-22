@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.btnn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background: brown;
+    color: #fff;
+    border: none;
+    font-size: 1.05rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+
+}
