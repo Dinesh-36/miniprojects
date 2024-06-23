@@ -40,7 +40,7 @@ export default function RandomColor() {
     }}>
         <div className="btnn">
             <button onClick={() => setRandomColor("rgb")}>Generate RGB Color</button>
-            <button onClick={() => { setRandomColor("hex") }}>Generate HEX Color</button>
+            <button onClick={() => setRandomColor("hex")}>Generate HEX Color</button>
             <button onClick={randomColor === "hex" ? randomHexColorGenerator : randomRgbColorGenerator}>Generate Random color</button>
         </div>
         <div style={{
